@@ -6,8 +6,8 @@ email=$2
 echo 'Setting up bbb for :'
 echo $1
 echo $2
-git clone https://github.com/afsaredrisy/bbb-install-aws-change.git
 wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-22 -s $1 -e $2
+git clone https://github.com/afsaredrisy/bbb-install-aws-change.git
 cd bbb-install-aws-change
 cd support/
 chmod +x support.sh
