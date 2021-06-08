@@ -32,6 +32,13 @@ wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial
 
 ```
 
+To install the latest build of BigBlueButton 2.3 on a new 64-bit Ubuntu 18.04 server use following.<br/>
+```
+wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -w -a -v bionic-23 -s bbb.example.com -e info@example.com
+```
+
+
+
 This will take few min to complete, After completion you can run following command to get api-mate secrate key.
 
 ```
